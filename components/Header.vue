@@ -1,8 +1,8 @@
 <template>
   <header class="header">
     <nuxt-link class="header-logo" to="/">
-        <h1 class="header-logo-img">&#12296;LBA&#12297;</h1> 
-        <h1 class="header-logo-text">&#32;ЭльБиЭй</h1>
+		<h1 class="header-logo-img">&#12296;LBA&#12297;</h1> 
+        <h1 class="header-logo-text">ЭльБиЭй</h1>
     </nuxt-link>
     <nuxt-header-nav/>
   </header>
@@ -35,21 +35,29 @@ export default {
     }
     .header-logo {
         text-decoration: none;
-       align-items:center;
-        display: flex;
+		display: flex;
+       align-items:baseline;
+        
+    }
+    .header-logo-img {
+		margin: 0;
+		padding-top: 10px;
+        font-weight: 400;
+        color: #526488;
+		letter-spacing: 1px;
+		text-align: center;
+		height: 45px;
     }
 
     .header-logo-text {
         margin: 0;
+		padding-top: 10px;
         font-weight: 400;
         color: #35495e;
         letter-spacing: 1px;
         text-align: center;
+		height: 45px;
     }
     
-    .header-logo-img {
-        font-weight: 300;
-        color: #526488;
-    }
 
 </style>

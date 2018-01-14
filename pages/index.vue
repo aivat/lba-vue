@@ -2,15 +2,14 @@
   <section class="container">
     <div>
       <h1 class="title">
-        Мы делаем сайты в Оренбурге
+        Мы делаем сайты <br>в Оренбурге
       </h1>
       <h2 class="subtitle">
 Мы помогаем клиентам развивать их бизнес благодаря постоянному улучшению сайта, обеспечиваем конкурентные преимущества и возможности роста.
 <br>
-<p class="tel">Звоните по номеру +7 (906) 830 77 77  </p>
+
       </h2>
-      <div class="links">
-      </div>
+		<p class="tel">ЗВОНИТЕ ПО НОМЕРУ +7 (951) 033-65-26  </p>
     </div>
   </section>
 </template>
@@ -49,16 +48,34 @@ export default {
   font-size: 42px;
   color: #526488;
   word-spacing: 5px;
+	padding: 0 15px;
   padding-bottom: 15px;
+
 }
 
 .links {
   padding-top: 15px;
 }
-    .tel {
-        display: block;
-        background-color: brown;
-        color: white;
-        height: 60px;
-    }
+.tel {
+	display: flex;
+	background-color: brown;
+	color: white;
+	justify-content: center;
+	/*        height: 60px;*/
+	font-weight: 300;
+	font-size: 42px;
+	word-spacing: 5px;
+	padding: 10px;
+}
+@media (max-width: 991px) {
+	.container {
+		margin-top: 100px;
+	}
+	.title {
+			 font-size: 40px;
+		 }
+	.subtitle {
+		font-size: 22px;
+	}
+	}
 </style>

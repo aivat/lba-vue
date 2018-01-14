@@ -2,18 +2,16 @@
   <div class="category">
     <div class="cont">
 		<h1 class="title-page">
-			О КОМПАНИИ <br><br>
+			КОНТАКТЫ<br><br>
 		</h1>
 		<div class="wrap">
-			Мы занимаемся развитием проектов.<br><br>
-
-			Анализируем -> пишем стратегию -> проектируем -> разрабатываем -> внедряем -> тестируем -> улучшаем.<br><br>
-
-			Начальная стадия может быть любой - от проектирования и разработки нового сайта до модернизации многолетнего проекта с историей и выстроенными процессами.<br><br>
-
-			Решаемые задачи - повышение конверсии, автоматизация, интеграции, отказоустойчивая работа нагруженных систем.
+			460024, Оренбург,
+			ул. Маршала Жукова, 42, офис 208<br><br>
+			Тел: +7 (951) 033-65-26<br><br>
+			<a href="https://vk.com/weblba" class="link-soc">Мы ВКонтакте</a> <br>
+			<a href="http://telegram.me/weblba" class="link-soc">Напишите нам в Телеграмм</a>
 		</div>
-    </div>
+	</div>
   </div>
 </template>
 
@@ -55,11 +53,18 @@
 		color: #35495e;
 		letter-spacing: 1px;
 	}
-	
 	.wrap {
 		flex-basis: 800px;
 	}
-		 @media (max-width: 991px) {
+	.link-soc {
+		text-decoration: none;
+		border-bottom: 1px dashed #000080;
+	}
+	.link-soc:hover {
+		color: #f00000;
+		border-color: #f00000;
+	 }
+	 @media (max-width: 991px) {
 		 .cont {
 			 flex-direction: column;
 		 }

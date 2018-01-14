@@ -5,7 +5,7 @@
       </nuxt-link>
     </li>
     <li class="menu-item">
-      <nuxt-link class="menu-item-link" to="/api">ТЕЛ: +7 (906) 830 7777
+      <nuxt-link class="menu-item-link" to="/contacts">ТЕЛ: +7 (951) 033-65-26
       </nuxt-link>
     </li>
   </ul>
