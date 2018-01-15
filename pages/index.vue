@@ -76,6 +76,7 @@ export default {
 	.title {
 			 font-size: 40px;
             margin: 0;
+		padding-top: 15px;
 		 }
 	.subtitle {
 		font-size: 22px;

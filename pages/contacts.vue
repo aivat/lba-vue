@@ -2,14 +2,18 @@
   <div class="category">
     <div class="cont">
 		<h1 class="title-page">
-			КОНТАКТЫ<br><br>
+			КОНТАКТЫ
 		</h1>
 		<div class="wrap">
+				<div class="box">
 			460024, Оренбург,
 			ул. Маршала Жукова, 42, офис 208<br><br>
 			Тел: +7 (951) 033-65-26<br><br>
-			<a href="https://vk.com/weblba" class="link-soc">Мы ВКонтакте</a> <br>
+	</div>
+						<div class="box">
+			<a href="https://vk.com/weblba" class="link-soc">Мы ВКонтакте</a> <br><br>
 			<a href="http://telegram.me/weblba" class="link-soc">Напишите нам в Телеграмм</a>
+	</div>
 		</div>
 	</div>
   </div>
@@ -68,13 +72,26 @@
 	 @media (max-width: 991px) {
 		 .cont {
 			 flex-direction: column;
+			 font-size: 18px;
 		 }
 		 .category {
-			margin-top: 60px; 
+			margin-top: 20px; 
+			 padding: 0 10px;
+		 }
+		 .wrap {
+			 flex-basis: auto;
 		 }
 		 .title-page {
 			 font-size: 30px;
 			 font-weight: 400;
+			 padding-bottom: 15px;
 		 }
+		 			 .box {
+						 border-radius: 5px;
+				 padding: 10px;
+				 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+				 margin-bottom: 20px;
+				 
+			 }
 	}
 </style>

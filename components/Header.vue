@@ -63,8 +63,8 @@ export default {
 			 top: auto;
              bottom: 0px;
             border-bottom: none;
-              border-top: 1px solid #dbdfe1;
-             box-shadow:0 -2px 20px -10px rgba(0, 0, 0, 0.5);
+/*              border-top: 1px solid #dbdfe1;*/
+			 box-shadow: 0 -1px 6px rgba(0,0,0,0.16);
 /*              justify-content: center;*/
 		 }
         .header-logo-text {
