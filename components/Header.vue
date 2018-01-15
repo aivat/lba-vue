@@ -20,7 +20,6 @@ export default {
 <style>
     .header {
       top: 0;
-/*        left: 0;*/
       width: 100%;
       height: 60px;
       z-index: 995;
@@ -58,6 +57,23 @@ export default {
         text-align: center;
 		height: 45px;
     }
-    
+    @media (max-width: 991px) {
+		 .header {
+/*             position: absolute;*/
+			 top: auto;
+             bottom: 0px;
+            border-bottom: none;
+              border-top: 1px solid #dbdfe1;
+             box-shadow:0 -2px 20px -10px rgba(0, 0, 0, 0.5);
+/*              justify-content: center;*/
+		 }
+        .header-logo-text {
+            display: none;
+        }
+        .header-logo-img {
+            padding-top: 7px;
+/*            border-right: 1px solid #dbdfe1;*/
+        }
+    }
 
 </style>

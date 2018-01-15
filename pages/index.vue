@@ -9,7 +9,7 @@
 <br>
 
       </h2>
-		<p class="tel">ЗВОНИТЕ ПО НОМЕРУ +7 (951) 033-65-26  </p>
+		<p class="tel">ЗВОНИТЕ ПО НОМЕРУ <br>+7 (951) 033-65-26  </p>
     </div>
   </section>
 </template>
@@ -32,6 +32,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+     flex: 1 0 auto;
 }
 
 .title {
@@ -69,10 +70,12 @@ export default {
 }
 @media (max-width: 991px) {
 	.container {
-		margin-top: 100px;
+		margin-top: 0px;
+        margin-bottom: 60px;
 	}
 	.title {
 			 font-size: 40px;
+            margin: 0;
 		 }
 	.subtitle {
 		font-size: 22px;

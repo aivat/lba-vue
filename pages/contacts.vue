@@ -58,7 +58,8 @@
 	}
 	.link-soc {
 		text-decoration: none;
-		border-bottom: 1px dashed #000080;
+		border-bottom: 1px dashed #188269;
+        color: #188269;
 	}
 	.link-soc:hover {
 		color: #f00000;
@@ -69,7 +70,7 @@
 			 flex-direction: column;
 		 }
 		 .category {
-			margin-top: 120px; 
+			margin-top: 60px; 
 		 }
 		 .title-page {
 			 font-size: 30px;

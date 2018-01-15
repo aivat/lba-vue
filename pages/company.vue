@@ -64,7 +64,8 @@
 			 flex-direction: column;
 		 }
 		 .category {
-			margin-top: 120px; 
+			margin-top: 60px;
+            margin-bottom: 60px;
 		 }
 		 .title-page {
 			 font-size: 30px;

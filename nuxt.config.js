@@ -23,12 +23,12 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   manifest: {
-    name: 'ProposalMate',
-    short_name: 'ProposalMate',
+    name: 'Веб-студия LBA',
+    short_name: 'LBA',
     lang: 'ru',
-    description: 'Create beautiful business proposals',
+    description: 'Веб-студия ЭльБиЭй {LBA}',
     theme_color: '#188269',
-    background_color: '#000'
+    background_color: '#526488'
   },
   /*
   ** Build configuration
